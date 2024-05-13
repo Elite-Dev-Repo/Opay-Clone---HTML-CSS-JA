@@ -1,0 +1,262 @@
+:root{
+    --main-color:#00B875 ;
+    --bg-white: #f3efef;
+    --green-variant:#00b87513 ;
+}
+
+*{
+    color: #222;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+html, body{
+ scroll-behavior: smooth;
+ font-family: "Poppins", sans-serif;
+ background-color: var(--bg-white);
+}
+
+
+.icon-cont{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--green-variant);
+}
+
+.top-bar{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.top-user{
+    display: flex;
+    gap: .6em;
+}
+
+.top-user button{
+    border-radius: 25px;
+    padding: .7em 2em;
+    background-color: transparent;
+    border: 1px solid var(--main-color);
+}
+
+.top-user button a{
+    color: var(--main-color);
+}
+.top-user h3{
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.top-icons{
+    display: flex;
+    gap: 1em;
+    font-size: 1.4em;
+}
+
+.top-icons i{
+    opacity: .7;
+}
+
+.bal-cont{
+    padding: 1em;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 .9em;
+    border-radius: 15px;
+    /* padding: 0 .8em; */
+}
+
+.avail-bal{
+    /* padding: 1em; */
+}
+
+.avail-bal p{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: .8em;
+}
+
+.avail-bal input{
+    color: #fff;
+    max-width: 7em;
+    background-color: transparent;
+    font-size: 1.2em;
+    margin-top: .6em;
+}
+
+.transactions{
+    /* padding: 1em; */
+}
+
+.transactions p{
+   color: #fff;
+   font-weight: 300;
+   font-size: .8em;
+}
+
+.transactions i{
+    color: #fff;
+}
+
+.transactions button{
+    padding: .5em 1em;
+    margin-top: 1em;
+    border-radius: 25px;
+    font-size: .9em;
+    color:var(--main-color);
+    background-color: #fff;
+}
+
+
+/* TRANSFERS SECT */
+
+.transfer{
+    height: 7em;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    align-items: center;
+    margin:.9em .9em;
+    border-radius: 15px;
+    padding: 0 .8em;
+}
+
+.to-opay, .to-bank, .withdraw{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.to-opay i, .to-bank i, .withdraw i{
+    font-size: 1.4em;
+    color: var(--main-color);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--green-variant);
+    margin-bottom: .5em;
+}
+
+.to-opay p, .to-bank p, .withdraw p{
+    font-size: .8em;
+}
+
+/* OTHER TRANSACTIONS */
+
+
+.others{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, .8fr);
+    justify-content: center;
+    align-content: center;
+    margin:.9em .9em;
+    border-radius: 15px;
+    padding: 0 .8em;
+}
+
+.others-items{
+    padding:.5em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.others-items i{
+    font-size: 1.3em;
+    color: var(--main-color);
+    padding: 12px;
+    border-radius: 50%;
+    background-color: var(--green-variant);
+    margin-bottom: .5em;
+}
+
+.others-items p{
+    font-size: .8em;
+}
+
+.promo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--green-variant);
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 4em;
+}
+
+.left{
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.left i{
+    margin-right: 1em;
+    font-size: 2em;
+    color: var(--main-color);
+}
+
+.left p{
+    font-size: .7em;
+}
+
+.promo button{
+    border: 1px solid var(--main-color);
+    padding: .6em 1.2em;
+    border-radius: 25px;
+    background-color: var(--main-color);
+    color: #fff;
+    /* font-size: .9em; */
+    margin-right: .5em;
+}
+.promo button a{
+    color: #fff;
+    font-size: .9em;
+}
+/* FOOTER */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: .8em;
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-items p{
+    font-size: .8em;
+}
+
+.footer-items i{
+    font-size: 1.4em;
+    opacity: .7;
+    /* margin-bottom: .3em; */
+}
+
+
+.active{
+    color: var(--main-color);
+}

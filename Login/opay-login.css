@@ -1,0 +1,120 @@
+:root{
+    --main-color:#00B875 ;
+    --bg-white: #f3efef;
+    --green-variant:#00b87513 ;
+}
+
+*{
+    color: #222;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+html, body{
+ scroll-behavior: smooth;
+ font-family: "Poppins", sans-serif;
+ background-color:#fff;
+}
+
+.opay-logo{
+    width: 10em;
+    height: 6em;
+    display: block;
+    margin: 0 auto;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input[type="tel"]{
+    width: 95vw;
+    height: 4em;
+    background-color: #f7f6f6;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    opacity: .6;
+
+}
+
+.form input[type="password"]{
+    width: 95vw;
+    height: 4em;
+    background-color: #f7f6f6;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    opacity: .6;
+}
+
+.forget-pass{
+    font-size: .9em;
+    color: var(--main-color);
+    float: right;
+    margin-top: 1em;
+    margin-right: 1.3em;
+}
+
+.login{
+    text-align: center;
+    background-color: var(--main-color);
+    width: 90vw;
+    padding: .7em 0;
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2.5em;
+    opacity: .6;
+    transition: 300ms ease;
+}
+
+.login{
+    color: #fff;
+    font-size: 1em;
+}
+
+.login:hover{
+    opacity: 1;
+}
+.form input[type="password"]:focus, .form input[type="tel"]:focus{
+    opacity: 1;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.acct{
+    font-size: .9em;
+    text-align: center;
+}
+
+.acct span{
+    color: var(--main-color);
+}
+
+.licensed{
+    display: block;
+    font-size: .9em;
+    text-align: center;
+    margin-bottom: .7em;
+}
+
+.licensed span{
+    color: rgb(10, 10, 156);
+    font-size: 1em;
+    font-weight: 700;
+}

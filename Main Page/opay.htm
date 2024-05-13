@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opay</title>
+    <link rel="stylesheet" href="./opay.css">
+
+    <!-- GOOGLE FONT POPPINS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- FONT AWESOME ICON CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="top-user">
+            <i class="fa-solid fa-user-tie fa-2x"></i>
+            <h3>Hi, Elite</h3>
+        </div>
+
+        <div class="top-icons">
+            <i class="fa-solid fa-headphones-simple"></i>
+            <i class="fa-solid fa-expand"></i>
+            <i class="fa-regular fa-bell"></i>
+        </div>
+    </div>
+
+    <!-- BALANCE -->
+    <div class="bal-cont">
+<div class="avail-bal">
+    <p>Available Balance  <i class="fa-regular fa-eye-slash" id="eye" onclick="showBal()"></i></p>
+
+    <input type="text" value="****" id="balance" readonly>
+</div>
+
+<div class="transactions">
+<p>Transaction History <i class="fa-solid fa-angle-right"></i></p>
+
+<button>+ Add Money</button>
+</div>
+    </div>
+
+    <!-- TRANSFERS -->
+    <div class="transfer">
+        <div class="to-opay">
+            <i class="fa-solid fa-building-columns"></i>
+            <p>To Opay</p>
+        </div>
+
+        <div class="to-bank">
+            <i class="fa-solid fa-building-columns"></i>
+            <p>To Bank</p>
+        </div>
+
+        <div class="withdraw">
+            <i class="fa-solid fa-bus"></i>
+            <p>Withdraw</p>
+        </div>
+    </div>
+
+    <!-- OTHER TRANSACTIONS -->
+    <div class="others">
+
+        <div class="others-items">
+            <i class="fa-solid fa-mobile"></i>
+            <p>Airtime</p>
+        </div>
+        <div class="others-items">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <p>Data</p>
+        </div>
+        <div class="others-items">
+            <i class="fa-solid fa-futbol"></i>
+            <p>Betting</p>
+        </div>
+        <div class="others-items">
+            <i class="fa-solid fa-tv"></i>
+            <p>TV</p>
+        </div>
+        <div class="others-items">
+            <i class="fa-solid fa-piggy-bank"></i>
+            <p>OWealth</p>
+        </div>
+        <div class="others-items">
+            <i class="fa-solid fa-building-columns"></i>
+            <p>Loan</p>
+        </div>
+        <div class="others-items">
+            <i class="fa-solid fa-child-reaching"></i>
+            <p>Play4AChild</p>
+        </div>
+        <div class="others-items">
+            <i class="fa-solid fa-money-check"></i>
+            <p>More</p>
+        </div>
+
+    </div>
+
+    <!-- PROMOTIONS -->
+    <div class="cash">
+        <i class="fa-solid fa-bullhorn"></i>
+<div class="cash-cont">
+    <h3>Cash up for grabs!</h3>
+    <p>invite friends and earn up to N4,200 Cash</p>
+</div>
+    </div>
+
+
+
+
+    <footer>
+<div class="footer-items">
+   <i class="fa-solid fa-building-columns active"></i>
+    <p class="active">Home</p>
+</div>
+
+<div class="footer-items">
+    <i class="fa-regular fa-gem"></i>
+    <p>Rewards</p>
+</div>
+
+<div class="footer-items">
+    <i class="fa-solid fa-building-columns"></i>
+    <p>Finance</p>
+</div>
+
+<div class="footer-items">
+    <i class="fa-solid fa-piggy-bank"></i>
+    <p>Cards</p>
+</div>
+
+<div class="footer-items">
+    <i class="fa-regular fa-user"></i>
+    <p>Me</p>
+</div>
+    </footer>
+
+    
+    <script src="./opay.js"></script>
+    <script src="https://kit.fontawesome.com/19a24e5ad1.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
